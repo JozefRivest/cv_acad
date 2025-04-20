@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.24)  18 APR 2025 10:54
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.3.24)  20 APR 2025 14:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -241,8 +241,7 @@ File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
 \l__pdf_internal_box=\box56
 \g__pdf_backend_annotation_int=\count288
 \g__pdf_backend_link_int=\count289
-)
-No file CV_Rivest.aux.
+) (./CV_Rivest.aux)
 \openout1 = `CV_Rivest.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
@@ -265,6 +264,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 39.
 LaTeX Font Info:    ... okay on input line 39.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -309,12 +309,10 @@ Package color Info: Driver file: xetex.def on input line 149.
 
 (/usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 39.
+
+(./CV_Rivest.out) (./CV_Rivest.out)
 \@outlinefile=\write4
 \openout4 = `CV_Rivest.out'.
-
-
-
-Package hyperref Warning: Rerun to get /PageLabels entry.
 
 
 Overfull \hbox (30.0pt too wide) in paragraph at lines 39--39
@@ -357,21 +355,14 @@ File: Rlogo.pdf Graphic file (type pdf)
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-
-
-Package rerunfilecheck Warning: File `CV_Rivest.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `CV_Rivest.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `CV_Rivest.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 9258 strings out of 473832
- 145776 string characters out of 5729481
- 555608 words of memory out of 5000000
- 32225 multiletter control sequences out of 15000+600000
+ 9266 strings out of 473832
+ 145912 string characters out of 5729481
+ 555674 words of memory out of 5000000
+ 32227 multiletter control sequences out of 15000+600000
  562936 words of font info for 60 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  72i,8n,79p,581b,482s stack positions out of 10000i,1000n,20000p,200000b,200000s
