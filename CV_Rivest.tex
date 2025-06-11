@@ -16,16 +16,22 @@
 \usepackage{dirtytalk}
 \usepackage{graphicx}
 \usepackage{fancyvrb}
+\usepackage{xcolor}
 \usepackage{hyperref}
+
+% Define burgundy color
+\definecolor{burgundy}{RGB}{128, 0, 32}
+
 \hypersetup{
-    breaklinks=true,
-    colorlinks=true,
-    linkcolor=blue,
-    filecolor=blue,      
-    urlcolor=blue,
+    colorlinks=false,
+    pdfborder={0.7 0.7 0.7},  % width of the box border
+    linkbordercolor=burgundy,
+    citebordercolor=burgundy,
+    urlbordercolor=burgundy,
     pdftitle={Overleaf Example},
     pdfpagemode=FullScreen,
-    }
+    breaklinks=true
+}
 \newcommand{\Rlogo}{\protect\includegraphics[height=1.8ex,keepaspectratio]{Rlogo.pdf}} \newcommand{\myinput}[1] {\begin{scriptsize}
 \VerbatimInput[frame=single,label=#1]{#1}
 \end{scriptsize}}
@@ -48,7 +54,7 @@
 \\ Ph.D. Political Science
 
 {\bf University of Montreal} \hfill {\em 2025} 
-\\ M.Sc. Political Science \hfill {\em GPA: 4/4}
+\\ M.Sc. Political Science \hfill {\em GPA: 4.3/4.3}
 \\ Supervisor : Dominique Caouette 
 \\ Co-Supervisor : Richard Nadeau
 \\ Thesis : Security Shifts and Public Sentiment: How the Recent Shifts in East Asia Geopolitics Affect Japanese Pacifist Norms
@@ -91,20 +97,20 @@ Publication coordinator for l'Asie en 1000 mots, an initiative of the Center for
 \begin{enumerate}
     \item \textbf{Analyzing Data About Attitudes Toward Poverty in Quebec} \hfill {\em 2025}
         \begin{itemize}
-            \item The contract is realized with Professors Frederick Bastien (University of Montreal) and Normand Landry (TÉLUQ University). The task concern analyzing data from a survey of attitudes toward poverty in Quebec. It will lead to the creation of scales, production of a report, and production of scientific articles. 
+            \item The contract is realized with Professors Frederick Bastien (University of Montreal) and Normand Landry (TÉLUQ University). The task concerns analyzing data from a survey on attitudes toward poverty in Quebec.
         \end{itemize}
     \item \textbf{Contracts Realized With Pr. Vincent Arel-Bundock} \hfill {\em 2024}
         \begin{itemize}
-            \item Editing Quarto documents for the Marginal Effect website\footnote{\url{https://marginaleffects.com}}
-            \item Classifying scientific paper for an LLM driven research aiming to extract information from academic articles at scale
+          \item Editing Quarto documents for the \href{https://marginaleffects.com}{Marginal Effect website}.
+            \item Classifying scientific paper for an LLM driven research aiming to extract information from academic articles at scale.
         \end{itemize}
     \item \textbf{Leadership Chair in the Teaching of Digital Social Sciences} \hfill {\em 2022 -}
         \begin{itemize}
             \item {Working on the adaptation and development of a Japanese version of Datagotchi, an educational and fun web application issuing predictions based on lifestyle habits.}
-            \item Writing stories for US media about the relation between lifestyle and views on international relations, in the context of the 60th presidential election 
-            \item Developing a questionnaire and a conjoint experiment aimed at evaluating the psychosocial factors that influence the acceptability of gene therapy
-            \item Working on different projects and paper related to the use of AI in social sciences
-            \item Wrote two chapters for a book about the numerical tools in social sciences
+            \item Writing stories for US media about the relation between lifestyle and views on international relations, in the context of the 60th presidential election. 
+            \item Developing a questionnaire and a conjoint experiment aimed at evaluating the psychosocial factors that influence the acceptability of gene therapy.
+            \item Working on different projects and paper related to the use of AI in social sciences.
+            \item Wrote two chapters for a book about the numerical tools in social sciences.
         \end{itemize}
     \item \textbf{Contract Realized With Pr. Laurence McFalls} \hfill {\em 2022}
         \begin{itemize}
@@ -134,13 +140,13 @@ Publication coordinator for l'Asie en 1000 mots, an initiative of the Center for
 \begin{rSection}{Teaching Experiences}
     \subsection*{Teaching Assistant}
         \begin{itemize}
-            \item Southeast Asia - POL3401, University of Montreal, Fall 2023
+            \item Southeast Asia - POL3401, University of Montreal, Fall 2023.
             \item International Relations of Southeast Asia - POL3011, University of Montreal, Winter 2024.
         \end{itemize}
     \subsection*{Interventions}
         \begin{itemize}
-            \item Artificial Intelligence in Social Sciences: Questions, Issues and Opportunities, Numeric Research Tools - POL6078, Laval University, Fall 2024
-            \item An Introduction to Quarto: How to Present your Analyses Using Quarto, Quantitative Research in Political Science - POL6021, University of Montreal, Fall 2024
+            \item Artificial Intelligence in Social Sciences: Questions, Issues and Opportunities, Numeric Research Tools - POL6078, Laval University, Fall 2024.
+            \item An Introduction to Quarto: How to Present your Analyses Using Quarto, Quantitative Research in Political Science - POL6021, University of Montreal, Fall 2024.
         \end{itemize}
         
 \end{rSection}
@@ -154,7 +160,9 @@ Publication coordinator for l'Asie en 1000 mots, an initiative of the Center for
 
 \subsection*{Peer-Reviewed Articles}
 
-\textbf{A.1} Foisy, Laurence-Olivier M., Jérémie Drouin, Camille Pelletier, \textbf{Jozef Rivest}, Hubert Cadieux, Yannick Dufresne. 2025. \say{Ain't No Party Like a GPT Party. Assessing GPT-4 Political Alignment Classification Capabilities}. \textit{Journal of Information Technology \& Politics} 
+{\textbf{A.2} Dufresne, Yannick, Hubert Cadieux, Etinne Proulx, Laurence-Olivier M. Foisy, \textbf{Jozef Rivest}, Alexandre Bouillon, and Jeremy Gilbert. 2025. \say{Open AI's GPT Model in Political Context: A New Dataset for Political Science Research}. \textit{Social Science Computer Review}, 0(0). \href{https://doi.org/10.1177/08944393251344865}{https://doi.org/10.1177/08944393251344865}}
+
+{\textbf{A.1} Foisy, Laurence-Olivier M., Jérémie Drouin, Camille Pelletier, \textbf{Jozef Rivest}, Hubert Cadieux, Yannick Dufresne. 2025. \say{Ain't No Party Like a GPT Party. Assessing GPT-4 Political Alignment Classification Capabilities}. \textit{Journal of Information Technology \& Politics}, December, 1-13. \href{https://doi.org/10.1177/08944393251344865}{https://doi.org/10.1177/08944393251344865}}
 
 \subsection*{Peer-Reviewed Book Chapters}
 
@@ -165,7 +173,7 @@ l’apport du logiciel libre et du code ouvert dans les sciences sociales [Chapt
 
 \subsection*{Conferences}
 
-{\textbf{C.7} Bastien, Frédérick, \textbf{Jozef Rivest} et Normand Landry (TÉLUQ). \say{Aide-toi, le ciel t’aidera! » Le rôle du mérite, de l’identité partisane et des médias dans l’imputabilité d’une atténuation de la pauvreté [Help Yourself, Heaven Will Help You!” The Role of Merit, Partisan Identity, and the Media in Accountability for Poverty Alleviation]}, Société Québécoise de Science politique [Quebec's Society of Political Science], Montreal, May 2025}
+{\textbf{C.7} Bastien, Frédérick, \textbf{Jozef Rivest} et Normand Landry (TÉLUQ). \say{Aide-toi, le ciel t’aidera! Le rôle du mérite, de l’identité partisane et des médias dans l’imputabilité d’une atténuation de la pauvreté [Help Yourself, Heaven Will Help You! The Role of Merit, Partisan Identity, and the Media in Accountability for Poverty Alleviation]}, Société Québécoise de Science politique [Quebec's Society of Political Science], Montreal, May 2025}
 
 {\textbf{C.6} Proulx, Étienne, \textbf{Jozef Rivest}, Camille Pelletier, Laurence-Olivier M. Foisy. \say{Cultural Dimensions of Trust and Fear: A Comparative Study of Public Attitudes Toward Artificial Intelligence in Japan and Canada} Midwest Political Science Association, {April 2025}}
 
@@ -179,13 +187,9 @@ l’apport du logiciel libre et du code ouvert dans les sciences sociales [Chapt
 
 {\textbf{C.1} Dufresne, Yannick, Axel Dery, \textbf{Jozef Rivest}, Catherine Ouellet and Etienne Gagnon. \say{What Social-Class Markers and Lifestyles Tell Us About the Left-Right Divide in Canada and Japan} Southern Political Science Association, St. Pete Beach, January 2023.}
 
-\subsection*{Submitted}
+% \subsection*{Submitted}
 
-{\textbf{S.1} Dufresne, Yannick, Hubert Cadieux, Etinne Proulx, Laurence-Olivier M. Foisy, \textbf{Jozef Rivest}, Alexandre Bouillon, and Jeremy Gilbert. \say{Open AI's GPT Model in Political Context: A New Dataset for Political Science Research}.}
-
-\subsection*{Review and Resubmit}
-
-{\textbf{R.1} Girard, Tyler, \textbf{Jozef Rivest}, Mathieu Turgeon, Yannick Dufresne, Takeshi Iida and Tetsuya Matsubayashi. \say{Public Support for Emerging Military Technology Development in ‘Middle’ Powers}.} \par 
+% \subsection*{Review and Resubmit}
 
 \subsection*{Medias}
 
@@ -216,6 +220,8 @@ l’apport du logiciel libre et du code ouvert dans les sciences sociales [Chapt
 {\textbf{Rivest, Jozef}. \say{Pacifism Under Scrutiny: Measuring Japanese Norms Amid Shifting Geopolitical Dynamics}}
 
 {\textbf{Rivest, Jozef}, Mathieu Turgeon, Tetsuya Matsubayashi, Takeshi Iida, Yannick Dufresne. \say{Permanent or Temporary? Understanding Japanese's Preferences Toward Immigration}}
+
+{Girard, Tyler, \textbf{Jozef Rivest}, Mathieu Turgeon, Yannick Dufresne, Takeshi Iida and Tetsuya Matsubayashi. \say{Public Support for Emerging Military Technology Development in ‘Middle’ Powers}.} \par 
 
 %--copy and paste this region  if you need more--
 \end{rSection}
