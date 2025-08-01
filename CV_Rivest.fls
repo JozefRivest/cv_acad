@@ -72,6 +72,9 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics-cfg/color.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/mathcolor.ltx
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/dvipsnam.def
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/hyperref/hyperref.sty
 INPUT /usr/local/texlive/2025/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
@@ -133,6 +136,7 @@ INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.st
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+INPUT /usr/local/texlive/2025/texmf-dist/tex/latex/graphics/color.sty
 INPUT ./CV_Rivest.out
 INPUT ./CV_Rivest.out
 INPUT CV_Rivest.out
