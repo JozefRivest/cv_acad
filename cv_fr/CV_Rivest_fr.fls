@@ -190,6 +190,13 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/wadalab/udmj/udmj90.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/wadalab/udmj/udmj63.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/wadalab/udmj/udmj5b.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/wadalab/udmj/udmj4f.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
+INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
+INPUT ./Rlogo.pdf
+INPUT ./Rlogo.pdf
+INPUT ./Rlogo.pdf
+INPUT ./Rlogo.pdf
+INPUT ./Rlogo.pdf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/wadalab/udmj/udmj65.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/wadalab/dmj/dmjkp.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/wadalab/mc2j/mc2jkg.tfm
@@ -223,13 +230,6 @@ INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/wadalab/mc2j/mc2jkd.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/wadalab/dmj/dmjkn.tfm
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/vf/wadalab/udmj/udmj4f.vf
 INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/wadalab/mc2j/mc2jka.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
-INPUT /usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
-INPUT ./Rlogo.pdf
-INPUT ./Rlogo.pdf
-INPUT ./Rlogo.pdf
-INPUT ./Rlogo.pdf
-INPUT ./Rlogo.pdf
 INPUT CV_Rivest_fr.aux
 INPUT ./CV_Rivest_fr.out
 INPUT ./CV_Rivest_fr.out
