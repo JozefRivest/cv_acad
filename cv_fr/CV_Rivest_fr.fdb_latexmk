@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1756740148.70507 "CV_Rivest_fr.tex" "CV_Rivest_fr.pdf" "CV_Rivest_fr" 1756740149.86619 0
+["pdflatex"] 1756740641.4425 "CV_Rivest_fr.tex" "CV_Rivest_fr.pdf" "CV_Rivest_fr" 1756740642.41203 0
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1136768653 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -146,9 +146,9 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1742854924 5496777 dfac5a65ccd1b178961f799dec0d389d ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1742855027 3345741 16736f8d78b0c2abdc9b861f52fa1f7d ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "CV_Rivest_fr.aux" 1756740149.73431 359 378e5a065bc683754217719215278209 "pdflatex"
-  "CV_Rivest_fr.out" 1756740149.49117 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "CV_Rivest_fr.tex" 1756740147.73352 15114 13a26a7670742fc076a3c1142a6bca9d ""
+  "CV_Rivest_fr.aux" 1756740642.28641 359 378e5a065bc683754217719215278209 "pdflatex"
+  "CV_Rivest_fr.out" 1756740642.06469 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "CV_Rivest_fr.tex" 1756740639.84211 15020 df6b241b406022e36d9de875d6b4bfb1 ""
   "Rlogo.pdf" 1744941166.08654 37175 ab124ba7375edcd318f7fbc1b661f9f4 ""
   "resume.cls" 1744941166.08712 4800 7d0890dd8b770ce0426136049ebec6c1 ""
   (generated)
