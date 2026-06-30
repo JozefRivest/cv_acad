@@ -23,9 +23,9 @@
 \usepackage{graphicx}
 \usepackage{fancyvrb}
 \usepackage[dvipsnames]{xcolor}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \hypersetup{
-    colorlinks=true,
+    colorlinks=false,
     linkcolor=Maroon,
     filecolor=Maroon,
     urlcolor=Maroon,
@@ -38,10 +38,20 @@
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Jozef Rivest} % Your name
-\address{5700 Haven Hall, 505 South State Street \\ Ann Arbor, MI 48109-1045} % NOTE: À changer éventuellement !!!!!
-\address{\href{mailto:jrivest@umich.edu}{jrivest@umich.edu} \\ \href{https://jozefrivest.com}{jozefrivest.com}} % Courriel et site web
+% \address{5700 Haven Hall, 505 South State Street \\ Ann Arbor, MI 48109-1045} % NOTE: À changer éventuellement !!!!!
+% \address{\href{mailto:jrivest@umich.edu}{jrivest@umich.edu} \\ \href{https://jozefrivest.com}{jozefrivest.com}} % Courriel et site web
 
 \begin{document}
+
+\begin{rSection}{Coordonnées}
+	\begin{center}
+		\begin{tabular}{ @{} l @{\hspace{4cm}} l @{} }
+			5700 Haven Hall, 505 South State Street & Email : \href{mailto:jrivest@umich.edu}{\texttt{jrivest@umich.edu}}                \\
+			Ann Arbor, MI 48109--1045               & Site web : \href{https://jozefrivest.com}{\texttt{jozefrivest.com}}                \\
+			                                        & ORCID : \href{https://orcid.org/0000-0002-3195-3838}{\texttt{0000-0002-3195-3838}} \\
+		\end{tabular}
+	\end{center}
+\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -147,24 +157,25 @@
 
 	\subsection*{Articles évalués par les pairs}
 
-	{\textbf{A.2} Dufresne, Yannick, Hubert Cadieux, Etinne Proulx,
-		Laurence-Olivier M. Foisy, \textbf{Jozef Rivest}, Alexandre Bouillon,
-		and Jeremy Gilbert. 2025. \og Open AI's GPT Model in Political
-		Context: A New Dataset for Political Science Research \fg{}. \textit{Social
-			Science Computer Review}, 0(0).
+	{\textbf{A.2} Dufresne, Yannick, Hubert Cadieux, Étienne Proulx,
+		Laurence-Olivier M. Foisy, \textbf{Jozef Rivest}, Alexandre
+		Bouillon, and Jeremy Gilbert. 2025. \say{Prompting the
+			Machine: Introducing an LLM Data Extraction Method for
+			Social Scientists}. \textit{Social
+			Science Computer Review}, 44(3).
 		\url{https://doi.org/10.1177/08944393251344865}}
 
 	{\textbf{A.1} Foisy, Laurence-Olivier M., Jérémie Drouin, Camille
 		Pelletier, \textbf{Jozef Rivest}, Hubert Cadieux, Yannick Dufresne.
-		2025. \og Ain't No Party Like a GPT Party. Assessing GPT-4 Political
-		Alignment Classification Capabilities \fg{}. \textit{Journal of Information
-			Technology \& Politics}, December, 1-13.
-		\url{https://doi.org/10.1177/08944393251344865}}
+		2025. \say{Ain't No Party Like a GPT Party. Assessing GPT-4 Political
+			Alignment Classification Capabilities}. \textit{Journal of Information
+			Technology \& Politics}, 23(2), 1-13.
+		\url{https://doi.org/10.1080/19331681.2024.2444587}}
 
 	\subsection*{Chapitres de livres évalués par les pairs}
 
 	{\textbf{B.2 Rivest, Jozef} et Catherine Ouellet. \og Chapitre
-		2. Vers une science numérique plus transparante:
+		2. Vers une science numérique plus transparente:
 		l'apport du logiciel libre et du code ouvert
 		dans les sciences sociales \fg{}, Dans \textit{Outils
 			de recherche en sciences sociales numériques},

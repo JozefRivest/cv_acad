@@ -21,9 +21,9 @@
 \usepackage{fancyvrb}
 \usepackage[dvipsnames]{xcolor}
 \usepackage{xurl}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \hypersetup{
-    colorlinks=true,
+    colorlinks=false,
     linkcolor=Maroon,
     filecolor=Maroon,
     urlcolor=Maroon,
@@ -36,10 +36,21 @@
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
 \name{Jozef Rivest} % Your name
-\address{5700 Haven Hall, 505 South State Street \\ Ann Arbor, MI 48109-1045} % NOTE: À changer éventuellement !!!!!
-\address{\href{mailto:jrivest@umich.edu}{jrivest@umich.edu} \\ \href{https://jozefrivest.com}{jozefrivest.com}} % Courriel et site web
+% %\address{333 rue Laforest, Saint-Alphonse-Rodriguez, Quebec, Canada} % NOTE: À changer éventuellement !!!!! 
+% %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+% \address{(+1) 450-758-0216 \\ jrivest@umich.edu} % Your phone number and email
 
 \begin{document}
+
+\begin{rSection}{Contact information}
+	\begin{center}
+		\begin{tabular}{ @{} l @{\hspace{4cm}} l @{} }
+			5700 Haven Hall, 505 South State Street & Email: \href{mailto:jrivest@umich.edu}{\texttt{jrivest@umich.edu}}                \\
+			Ann Arbor, MI 48109--1045               & Website: \href{https://jozefrivest.com}{\texttt{jozefrivest.com}}                 \\
+			                                        & ORCID: \href{https://orcid.org/0000-0002-3195-3838}{\texttt{0000-0002-3195-3838}} \\
+		\end{tabular}
+	\end{center}
+\end{rSection}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
@@ -89,7 +100,7 @@
 \begin{rSection}{Academic Experiences}
 	%--copy and paste this region  if you need more--
 	{\bf Asie en 1000 mots}{ [Asia in 1000 words], Coordinator} \hfill {\em 2023 -- 2025}\\
-	Publication coordinator for l'Asie en 1000 mots, an initiative of the Center for Asian Studies of the University of Montreal (CÉTASE). The site brings together accessible analyzes on the social, political, historical, economic and cultural phenomena that shape East and Southeast Asia by specialists from academia.
+	Publication coordinator for l'Asie en 1000 mots, an initiative of the Center for Asian Studies of the University of Montreal (CÉTASE). The site brings together accessible analyses on the social, political, historical, economic and cultural phenomena that shape East and Southeast Asia by specialists from academia.
 
 		{\bf Research Assistant}
 	\begin{enumerate}
@@ -100,14 +111,14 @@
 		\item \textbf{Contracts Realized With Pr. Vincent Arel-Bundock} \hfill {\em 2024}
 		      \begin{itemize}
 			      \item Editing Quarto documents for the \href{https://marginaleffects.com}{Marginal Effect website}.
-			      \item Classifying scientific paper for an LLM driven research aiming to extract information from academic articles at scale.
+			      \item Classifying scientific papers for an LLM-driven research aiming to extract information from academic articles at scale.
 		      \end{itemize}
 		\item \textbf{Leadership Chair in the Teaching of Digital Social Sciences} \hfill {\em 2022 -}
 		      \begin{itemize}
 			      \item {Working on the adaptation and development of a Japanese version of Datagotchi, an educational and fun web application issuing predictions based on lifestyle habits.}
 			      \item Writing stories for US media about the relation between lifestyle and views on international relations, in the context of the 60th presidential election.
 			      \item Developing a questionnaire and a conjoint experiment aimed at evaluating the psychosocial factors that influence the acceptability of gene therapy.
-			      \item Working on different projects and paper related to the use of AI in social sciences.
+			      \item Working on different projects and papers related to the use of AI in social sciences.
 			      \item Wrote two chapters for a book about the numerical tools in social sciences.
 		      \end{itemize}
 		\item \textbf{Contract Realized With Pr. Laurence McFalls} \hfill {\em 2022}
@@ -146,26 +157,27 @@
 
 	\subsection*{Peer-Reviewed Articles}
 
-	{\textbf{A.2} Dufresne, Yannick, Hubert Cadieux, Etinne Proulx,
-		Laurence-Olivier M. Foisy, \textbf{Jozef Rivest}, Alexandre Bouillon,
-		and Jeremy Gilbert. 2025. \say{Open AI's GPT Model in Political
-			Context: A New Dataset for Political Science Research}. \textit{Social
-			Science Computer Review}, 0(0).
+	{\textbf{A.2} Dufresne, Yannick, Hubert Cadieux, Étienne Proulx,
+		Laurence-Olivier M. Foisy, \textbf{Jozef Rivest}, Alexandre
+		Bouillon, and Jeremy Gilbert. 2025. \say{Prompting the
+			Machine: Introducing an LLM Data Extraction Method for
+			Social Scientists}. \textit{Social
+			Science Computer Review}, 44(3).
 		\url{https://doi.org/10.1177/08944393251344865}}
 
 	{\textbf{A.1} Foisy, Laurence-Olivier M., Jérémie Drouin, Camille
 		Pelletier, \textbf{Jozef Rivest}, Hubert Cadieux, Yannick Dufresne.
 		2025. \say{Ain't No Party Like a GPT Party. Assessing GPT-4 Political
 			Alignment Classification Capabilities}. \textit{Journal of Information
-			Technology \& Politics}, December, 1-13.
-		\url{https://doi.org/10.1177/08944393251344865}}
+			Technology \& Politics}, 23(2), 1-13.
+		\url{https://doi.org/10.1080/19331681.2024.2444587}}
 
 	\subsection*{Peer-Reviewed Book Chapters}
 
 	{\textbf{B.2 Rivest, Jozef} et Catherine Ouellet. \say{Chapitre
-		2. Vers une science numérique plus transparante:
+		2. Vers une science numérique plus transparente:
 		l’apport du logiciel libre et du code ouvert dans les
-		sciences sociales [Chapter B. Toward a more transparent
+		sciences sociales [Chapter 2. Toward a more transparent
 				digital science: the contribution of free software and
 				open source in the social sciences]}, In \textit{Outils
 	de recherche en sciences sociales numériques [Digital
@@ -220,7 +232,7 @@
 	for International Studies' symposium], Montreal, March 2024.}
 
 	{\textbf{C.2 Rivest, Jozef}. \say{Vers un renouveau de la culture
-	stratégique du Japon? [Toward a renewal of Japa's strategic
+	stratégique du Japon? [Toward a renewal of Japan's strategic
 	culture?]} Colloque étudiant du Centre d’études et de recherche
 	internationale de l’Université de Montréal (CÉRIUM) [Student
 			Symposium of the Montreal Center for International Studies],
@@ -238,7 +250,7 @@
 
 	\subsection*{Non-Peer-Reviewed Publications}
 
-	{\textbf{M.8 Rives, Jozef}. 2024. \say{Le Japon plongé dans
+	{\textbf{M.8 Rivest, Jozef}. 2024. \say{Le Japon plongé dans
 			l'incertitude politique [Japan plunged into political uncertainty]}
 		\textit{Le Devoir}, 1 November 2024.}
 
@@ -317,7 +329,7 @@
 		\item Conference grants, Center for the Study of Democratic Citizenship. 2024
 		\item Graduation grants, University of Montreal, 2024
 		\item Methods training grants, Center for the Study of Democratic Citizenship. 2024
-		\item Research Grand, Center for the Study of Democratic Citizenship. 2024
+		\item Research Grant, Center for the Study of Democratic Citizenship. 2024
 		\item Master's Scholarship, SSHRC. 2022
 		\item Desjardins Scholarship, Desjardins. 2021
 	\end{itemize}
@@ -344,7 +356,7 @@
 	{\bf Language}
 	\begin{itemize}
 		\item French (native)
-		\item English (C1)\footnote{TOELF Internet based scores: total 111, reading 26, listening 27, speaking 30, writing 28}
+		\item English (C1)\footnote{TOEFL Internet based scores: total 111, reading 26, listening 27, speaking 30, writing 28}
 		\item Japanese (A2+, JLPT N4)
 	\end{itemize}
 
@@ -368,9 +380,6 @@
 		\textbf{Elementary} \textcolor{black}{$\CIRCLE$}\textcolor{gray!60}{$\CIRCLE\CIRCLE$}
 		\begin{itemize}
 			\item Python
-			\item Stan
-			\item HTML
-			\item CSS
 		\end{itemize}
 	\end{multicols}
 
