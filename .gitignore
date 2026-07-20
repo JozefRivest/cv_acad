@@ -5,3 +5,5 @@ cv_eng/.latexmkrc
 
 cv_fr/build
 cv_fr/.latexmkrc
+
+*.gz
